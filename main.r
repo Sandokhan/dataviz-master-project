@@ -309,7 +309,7 @@ map4 <- map3 + geom_text(aes(
         x = 27, y = -22,
         label = paste("Autores: Joaquim Barbosa, Rhaydrick Tavares e Vânia Ribeiro. Data:", Sys.Date())
     ), size = 4, color = "black", family = "sans") +
-    geom_line(aes(x = -87:56, y = -20), size = 0.5, color = "black") +
+    geom_line(aes(x = -85.5:54.8, y = -20), size = 0.5, color = "black") +
     theme(plot.margin = margin(t = 0, r = 0, l = 0, b = 0))
 
 
